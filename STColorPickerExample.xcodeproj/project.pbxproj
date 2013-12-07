@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BED8368C1853D91800A49BF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED8368B1853D91800A49BF1 /* Foundation.framework */; };
+		BED8368E1853D91800A49BF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED8368D1853D91800A49BF1 /* CoreGraphics.framework */; };
+		BED836901853D91800A49BF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED8368F1853D91800A49BF1 /* UIKit.framework */; };
+		BED836961853D91800A49BF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BED836941853D91800A49BF1 /* InfoPlist.strings */; };
+		BED836981853D91800A49BF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BED836971853D91800A49BF1 /* main.m */; };
+		BED8369C1853D91800A49BF1 /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8369B1853D91800A49BF1 /* STAppDelegate.m */; };
+		BED8369F1853D91800A49BF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED8369D1853D91800A49BF1 /* Main.storyboard */; };
+		BED836A21853D91800A49BF1 /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BED836A11853D91800A49BF1 /* STViewController.m */; };
+		BED836A41853D91800A49BF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED836A31853D91800A49BF1 /* Images.xcassets */; };
+		BED836AB1853D91800A49BF1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED836AA1853D91800A49BF1 /* XCTest.framework */; };
+		BED836AC1853D91800A49BF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED8368B1853D91800A49BF1 /* Foundation.framework */; };
+		BED836AD1853D91800A49BF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED8368F1853D91800A49BF1 /* UIKit.framework */; };
+		BED836B51853D91800A49BF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BED836B31853D91800A49BF1 /* InfoPlist.strings */; };
+		BED836B71853D91800A49BF1 /* STColorPickerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BED836B61853D91800A49BF1 /* STColorPickerExampleTests.m */; };
+		BED836DD1853EB6B00A49BF1 /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = BED836D41853EB6B00A49BF1 /* colormap.png */; };
+		BED836DE1853EB6B00A49BF1 /* colormap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BED836D51853EB6B00A49BF1 /* colormap@2x.png */; };
+		BED836DF1853EB6B00A49BF1 /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = BED836D61853EB6B00A49BF1 /* glass.png */; };
+		BED836E01853EB6B00A49BF1 /* glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BED836D71853EB6B00A49BF1 /* glass@2x.png */; };
+		BED836E11853EB6B00A49BF1 /* STColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BED836DA1853EB6B00A49BF1 /* STColorPicker.m */; };
+		BED836E21853EB6B00A49BF1 /* STGlass.m in Sources */ = {isa = PBXBuildFile; fileRef = BED836DC1853EB6B00A49BF1 /* STGlass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BED836AE1853D91800A49BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BED836801853D91800A49BF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED836871853D91800A49BF1;
+			remoteInfo = STColorPickerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BED836881853D91800A49BF1 /* STColorPickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STColorPickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED8368B1853D91800A49BF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BED8368D1853D91800A49BF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BED8368F1853D91800A49BF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BED836931853D91800A49BF1 /* STColorPickerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STColorPickerExample-Info.plist"; sourceTree = "<group>"; };
+		BED836951853D91800A49BF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BED836971853D91800A49BF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BED836991853D91800A49BF1 /* STColorPickerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STColorPickerExample-Prefix.pch"; sourceTree = "<group>"; };
+		BED8369A1853D91800A49BF1 /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		BED8369B1853D91800A49BF1 /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		BED8369E1853D91800A49BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BED836A01853D91800A49BF1 /* STViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
+		BED836A11853D91800A49BF1 /* STViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
+		BED836A31853D91800A49BF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BED836A91853D91800A49BF1 /* STColorPickerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STColorPickerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED836AA1853D91800A49BF1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BED836B21853D91800A49BF1 /* STColorPickerExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STColorPickerExampleTests-Info.plist"; sourceTree = "<group>"; };
+		BED836B41853D91800A49BF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BED836B61853D91800A49BF1 /* STColorPickerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STColorPickerExampleTests.m; sourceTree = "<group>"; };
+		BED836D41853EB6B00A49BF1 /* colormap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colormap.png; sourceTree = "<group>"; };
+		BED836D51853EB6B00A49BF1 /* colormap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colormap@2x.png"; sourceTree = "<group>"; };
+		BED836D61853EB6B00A49BF1 /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.png; sourceTree = "<group>"; };
+		BED836D71853EB6B00A49BF1 /* glass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glass@2x.png"; sourceTree = "<group>"; };
+		BED836D91853EB6B00A49BF1 /* STColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STColorPicker.h; sourceTree = "<group>"; };
+		BED836DA1853EB6B00A49BF1 /* STColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STColorPicker.m; sourceTree = "<group>"; };
+		BED836DB1853EB6B00A49BF1 /* STGlass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STGlass.h; sourceTree = "<group>"; };
+		BED836DC1853EB6B00A49BF1 /* STGlass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STGlass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BED836851853D91800A49BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED8368E1853D91800A49BF1 /* CoreGraphics.framework in Frameworks */,
+				BED836901853D91800A49BF1 /* UIKit.framework in Frameworks */,
+				BED8368C1853D91800A49BF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED836A61853D91800A49BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED836AB1853D91800A49BF1 /* XCTest.framework in Frameworks */,
+				BED836AD1853D91800A49BF1 /* UIKit.framework in Frameworks */,
+				BED836AC1853D91800A49BF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BED8367F1853D91800A49BF1 = {
+			isa = PBXGroup;
+			children = (
+				BED836911853D91800A49BF1 /* STColorPickerExample */,
+				BED836B01853D91800A49BF1 /* STColorPickerExampleTests */,
+				BED8368A1853D91800A49BF1 /* Frameworks */,
+				BED836891853D91800A49BF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BED836891853D91800A49BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BED836881853D91800A49BF1 /* STColorPickerExample.app */,
+				BED836A91853D91800A49BF1 /* STColorPickerExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BED8368A1853D91800A49BF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BED8368B1853D91800A49BF1 /* Foundation.framework */,
+				BED8368D1853D91800A49BF1 /* CoreGraphics.framework */,
+				BED8368F1853D91800A49BF1 /* UIKit.framework */,
+				BED836AA1853D91800A49BF1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BED836911853D91800A49BF1 /* STColorPickerExample */ = {
+			isa = PBXGroup;
+			children = (
+				BED836D81853EB6B00A49BF1 /* STColorPicker */,
+				BED836D31853EB6B00A49BF1 /* Resources */,
+				BED8369A1853D91800A49BF1 /* STAppDelegate.h */,
+				BED8369B1853D91800A49BF1 /* STAppDelegate.m */,
+				BED8369D1853D91800A49BF1 /* Main.storyboard */,
+				BED836A01853D91800A49BF1 /* STViewController.h */,
+				BED836A11853D91800A49BF1 /* STViewController.m */,
+				BED836A31853D91800A49BF1 /* Images.xcassets */,
+				BED836CB1853DC9700A49BF1 /* iPad */,
+				BED836921853D91800A49BF1 /* Supporting Files */,
+			);
+			path = STColorPickerExample;
+			sourceTree = "<group>";
+		};
+		BED836921853D91800A49BF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BED836931853D91800A49BF1 /* STColorPickerExample-Info.plist */,
+				BED836941853D91800A49BF1 /* InfoPlist.strings */,
+				BED836971853D91800A49BF1 /* main.m */,
+				BED836991853D91800A49BF1 /* STColorPickerExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BED836B01853D91800A49BF1 /* STColorPickerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BED836B61853D91800A49BF1 /* STColorPickerExampleTests.m */,
+				BED836B11853D91800A49BF1 /* Supporting Files */,
+			);
+			path = STColorPickerExampleTests;
+			sourceTree = "<group>";
+		};
+		BED836B11853D91800A49BF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BED836B21853D91800A49BF1 /* STColorPickerExampleTests-Info.plist */,
+				BED836B31853D91800A49BF1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BED836CB1853DC9700A49BF1 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		BED836D31853EB6B00A49BF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BED836D41853EB6B00A49BF1 /* colormap.png */,
+				BED836D51853EB6B00A49BF1 /* colormap@2x.png */,
+				BED836D61853EB6B00A49BF1 /* glass.png */,
+				BED836D71853EB6B00A49BF1 /* glass@2x.png */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		BED836D81853EB6B00A49BF1 /* STColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BED836D91853EB6B00A49BF1 /* STColorPicker.h */,
+				BED836DA1853EB6B00A49BF1 /* STColorPicker.m */,
+				BED836DB1853EB6B00A49BF1 /* STGlass.h */,
+				BED836DC1853EB6B00A49BF1 /* STGlass.m */,
+			);
+			path = STColorPicker;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BED836871853D91800A49BF1 /* STColorPickerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED836BA1853D91800A49BF1 /* Build configuration list for PBXNativeTarget "STColorPickerExample" */;
+			buildPhases = (
+				BED836841853D91800A49BF1 /* Sources */,
+				BED836851853D91800A49BF1 /* Frameworks */,
+				BED836861853D91800A49BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STColorPickerExample;
+			productName = STColorPickerExample;
+			productReference = BED836881853D91800A49BF1 /* STColorPickerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BED836A81853D91800A49BF1 /* STColorPickerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED836BD1853D91800A49BF1 /* Build configuration list for PBXNativeTarget "STColorPickerExampleTests" */;
+			buildPhases = (
+				BED836A51853D91800A49BF1 /* Sources */,
+				BED836A61853D91800A49BF1 /* Frameworks */,
+				BED836A71853D91800A49BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BED836AF1853D91800A49BF1 /* PBXTargetDependency */,
+			);
+			name = STColorPickerExampleTests;
+			productName = STColorPickerExampleTests;
+			productReference = BED836A91853D91800A49BF1 /* STColorPickerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BED836801853D91800A49BF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sebastien Thiebaud";
+				TargetAttributes = {
+					BED836A81853D91800A49BF1 = {
+						TestTargetID = BED836871853D91800A49BF1;
+					};
+				};
+			};
+			buildConfigurationList = BED836831853D91800A49BF1 /* Build configuration list for PBXProject "STColorPickerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BED8367F1853D91800A49BF1;
+			productRefGroup = BED836891853D91800A49BF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BED836871853D91800A49BF1 /* STColorPickerExample */,
+				BED836A81853D91800A49BF1 /* STColorPickerExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BED836861853D91800A49BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED836DF1853EB6B00A49BF1 /* glass.png in Resources */,
+				BED836DD1853EB6B00A49BF1 /* colormap.png in Resources */,
+				BED836A41853D91800A49BF1 /* Images.xcassets in Resources */,
+				BED836961853D91800A49BF1 /* InfoPlist.strings in Resources */,
+				BED836E01853EB6B00A49BF1 /* glass@2x.png in Resources */,
+				BED836DE1853EB6B00A49BF1 /* colormap@2x.png in Resources */,
+				BED8369F1853D91800A49BF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED836A71853D91800A49BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED836B51853D91800A49BF1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BED836841853D91800A49BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED836A21853D91800A49BF1 /* STViewController.m in Sources */,
+				BED836981853D91800A49BF1 /* main.m in Sources */,
+				BED836E11853EB6B00A49BF1 /* STColorPicker.m in Sources */,
+				BED8369C1853D91800A49BF1 /* STAppDelegate.m in Sources */,
+				BED836E21853EB6B00A49BF1 /* STGlass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED836A51853D91800A49BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED836B71853D91800A49BF1 /* STColorPickerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BED836AF1853D91800A49BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED836871853D91800A49BF1 /* STColorPickerExample */;
+			targetProxy = BED836AE1853D91800A49BF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BED836941853D91800A49BF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED836951853D91800A49BF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BED8369D1853D91800A49BF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED8369E1853D91800A49BF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BED836B31853D91800A49BF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED836B41853D91800A49BF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BED836B81853D91800A49BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BED836B91853D91800A49BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BED836BB1853D91800A49BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STColorPickerExample/STColorPickerExample-Prefix.pch";
+				INFOPLIST_FILE = "STColorPickerExample/STColorPickerExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BED836BC1853D91800A49BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STColorPickerExample/STColorPickerExample-Prefix.pch";
+				INFOPLIST_FILE = "STColorPickerExample/STColorPickerExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BED836BE1853D91800A49BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/STColorPickerExample.app/STColorPickerExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STColorPickerExample/STColorPickerExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "STColorPickerExampleTests/STColorPickerExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BED836BF1853D91800A49BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/STColorPickerExample.app/STColorPickerExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STColorPickerExample/STColorPickerExample-Prefix.pch";
+				INFOPLIST_FILE = "STColorPickerExampleTests/STColorPickerExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BED836831853D91800A49BF1 /* Build configuration list for PBXProject "STColorPickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED836B81853D91800A49BF1 /* Debug */,
+				BED836B91853D91800A49BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED836BA1853D91800A49BF1 /* Build configuration list for PBXNativeTarget "STColorPickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED836BB1853D91800A49BF1 /* Debug */,
+				BED836BC1853D91800A49BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BED836BD1853D91800A49BF1 /* Build configuration list for PBXNativeTarget "STColorPickerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED836BE1853D91800A49BF1 /* Debug */,
+				BED836BF1853D91800A49BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BED836801853D91800A49BF1 /* Project object */;
+}
