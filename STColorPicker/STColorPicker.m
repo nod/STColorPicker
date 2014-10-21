@@ -42,6 +42,13 @@
     return self;
 }
 
+- (void)layoutSubviews
+{
+    // ensure that the image view and reference image both scale with the colour picker
+    _pickerImageView.frame = self.bounds;
+    _resizedImage = [self resizeImage:_pickerImageView.image width:self.frame.size.width height:self.frame.size.height];
+}
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [self touchesMoved:touches withEvent:event];
