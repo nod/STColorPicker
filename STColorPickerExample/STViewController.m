@@ -46,14 +46,19 @@
     [colorPicker setColorHasChanged:^(UIColor *color, CGPoint location) {
         [self.view setBackgroundColor:color];
     }];
-    
-    UIViewController *colorPickerViewController = [[UIViewController alloc] init];
+        UIViewController *colorPickerViewController = [[UIViewController alloc] init];
     colorPickerViewController.view = colorPicker;
         
     _pickerPopoverController = [[UIPopoverController alloc] initWithContentViewController:colorPickerViewController];
     _pickerPopoverController.popoverContentSize = CGSizeMake(200.0, 180.0);
     _pickerPopoverController.backgroundColor = [UIColor blackColor];
     [_pickerPopoverController presentPopoverFromRect:CGRectMake(position.x, position.y, 10.0, 10.0) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+
+    [colorPicker setColorPicked:^(UIColor *color, CGPoint location) {
+        [self.view setBackgroundColor:color];
+        [_pickerPopoverController dismissPopoverAnimated:YES];
+    }];
+    
 }
 
 @end

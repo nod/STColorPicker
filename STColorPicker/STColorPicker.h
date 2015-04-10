@@ -9,6 +9,8 @@
 @interface STColorPicker : UIView
 
 @property (nonatomic, copy) void (^colorHasChanged)(UIColor *color, CGPoint location);
+@property (nonatomic, copy) void (^colorPicked)(UIColor *color, CGPoint location);
+
 - (void)setColor:(UIColor *)color;
 
 @end
